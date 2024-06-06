@@ -13,12 +13,20 @@ export default function App(){
                 Contact Info
             </Text>
             <Link href={"contact"} style={{color:"blue",paddingBottom:40}}>hello</Link>
-            {/* <Link href={"about"} style={{color:"red"}}>ABOUT-----</Link> */}
             <Pressable
             onPress={Router}
             >
               <Text> ==About=== </Text>
             </Pressable>
+
+            <Link href={{
+                pathname:"Login",
+                params:{
+                    key:"hello"
+                }
+            }}>
+                login
+            </Link>
         </View>
     )
 }
