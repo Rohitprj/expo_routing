@@ -44,7 +44,7 @@ export default function App() {
             </Pressable>
 
             <Pressable>
-            <Link href={{ pathname: "HelpLine", params: { phNo: "98291" } }}>HelpLine Contact Here</Link>
+                <Link href={{ pathname: "HelpLine", params: { phNo: "98291" } }}>HelpLine Contact Here</Link>
             </Pressable>
         </View>
     )
